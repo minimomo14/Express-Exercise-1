@@ -1,8 +1,8 @@
-interface Movie {
+interface shoppingCart {
     id: number;
-    title: string;
-    year: number;
-    animated: boolean;
+    product: string;
+    price: number;
+    quantity: number;
 }
 
-export default Movie;
+export default shoppingCart;
